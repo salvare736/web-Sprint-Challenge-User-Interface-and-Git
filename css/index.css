@@ -101,10 +101,109 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +242,119 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header nav {  /* flexbox parent container */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header nav .lambdaLogo {
+    margin: 15px;
+}
+
+header nav a {  /* flexbox children */
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 15px 5px 5px 5px;
+    color: black;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+header .bannerImage {
+    background-position: center;
+    background-size: auto;
+    height: auto;
+    width: 100%;
+    margin: 15px 0px 25px 0px;
+}
+
+.container.about-page .section1 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 0px 10px 20px 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px dotted black;
+}
+
+.container.about-page .section2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    border-bottom: 2px dotted black;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.container.about-page .section2 .child2-1 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.container.about-page .section2 .child2-2 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.container.about-page .section3 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    border-bottom: 2px dotted black;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.container.about-page .section3 .child3-1 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.container.about-page .section3 .child3-2 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.container.about-page .section4 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: flex-start;
+    margin: 40px 0px;
+}
+
+.container.about-page .section2 a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+}
+
+.container.about-page .section3 a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+}
+
+.container.about-page h1, h2, a {
+    font-weight: bold;
 }
