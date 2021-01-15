@@ -294,6 +294,7 @@ header .bannerImage {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-evenly;
+    align-items: flex-start;
     margin: 20px;
 }
 
@@ -301,6 +302,7 @@ header .bannerImage {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-evenly;
+    align-items: flex-start;
     margin: 20px;
 }
 
@@ -317,6 +319,7 @@ header .bannerImage {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-evenly;
+    align-items: flex-start;
     margin: 20px;
 }
 
@@ -324,6 +327,7 @@ header .bannerImage {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-evenly;
+    align-items: flex-start;
     margin: 20px;
 }
 
@@ -335,3 +339,22 @@ header .bannerImage {
     margin: 40px 0px;
 }
 
+.container.about-page .section2 a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+}
+
+.container.about-page .section3 a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+}
+
+.container.about-page h1, h2, a {
+    font-weight: bold;
+}
