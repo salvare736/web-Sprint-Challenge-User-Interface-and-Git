@@ -271,3 +271,8 @@ header .bannerImage {
     width: 100%;
     margin: 15px 0px 25px 0px;
 }
+
+.container.about-page .section1 {
+    display: flex;
+    flex-flow: column nowrap;
+}
