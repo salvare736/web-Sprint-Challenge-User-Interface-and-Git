@@ -144,3 +144,31 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header nav {  /* flexbox parent container */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header nav .lambdaLogo {
+    margin: 15px;
+}
+
+header nav a {  /* flexbox children */
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 15px 5px 5px 5px;
+    color: black;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+header .bannerImage {
+    background-position: center;
+    background-size: auto;
+    height: auto;
+    width: 100%;
+    margin: 15px 0px 25px 0px;
+}
